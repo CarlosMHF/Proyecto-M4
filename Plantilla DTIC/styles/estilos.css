@@ -1,0 +1,77 @@
+.titulo h2{
+    text-align: center; 
+    background-color:#09226f;
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    text-align: center;
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+.divcomu{
+    display: flex;
+}
+.divcomu img{
+    
+}
+.division{
+    margin-top: 3em;
+}
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 33%;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.about img{
+    width: 80%;
+}
+.about p{
+    width: 80%;
+    text-align: center;
+}
+.filas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.columnas{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+}
+.autor{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.derechos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.autor .derechos h4{
+    padding: 0em 1em;
+    font-size: x-small;
+}
+.footer{
+    background-color: #09226f;
+    color: white;
+
+}

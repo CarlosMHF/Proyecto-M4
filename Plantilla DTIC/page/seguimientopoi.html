@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Planificacion Docente</title>
+    <link rel="stylesheet" href="/styles/seguimientopoi.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/src/Logo Uni.png" alt="Logo">
+        </div>
+        <h1>Seguimiento POI Docente</h1>
+        <div class="login-form">
+            <input type="text" placeholder="Usuario">
+            <input type="text" placeholder="Rol">
+            <button>Salir</button>
+        </div>
+    </header>
+    
+    <main>
+        <section class="activity-entry">
+            <h2>Seguimiento POI</h2>
+            <form id="activity-form">
+                <label for="Año">Año:</label>
+                <input type="text" id="año" name="actividad" placeholder="Ingrese el año" required>
+
+                <label for="semestre academico">Semestre Academico:</label>
+                <input type="text" id="semestreacd" name="semestre-academico" placeholder="Ingrese semestre academico" required>
+
+                <label for="Nombre Docente">Nombre docente:</label>
+                <input type="text" id="Nombre-docente" name="Nombre docente" placeholder="Ingrese su nombre" required>
+
+                <label for="Especialidad">Especialidad:</label>
+                <input type="text" id="Especialidad" name="Especialidad" placeholder="Especialidad" required>
+
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+        
+        <section class="data-display">
+            <h2>Tabla de Actividades Registradas</h2>
+            <table id="activity-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Horas Semanales</th>
+                        <th>Horas Semestre</th>
+                        <th>Alcance</th>
+                        <th>Observaciones</th>
+                        <th>Aceptar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se mostrarán las actividades ingresadas -->
+                    <tr>
+                        <td>Actividad 1</td>
+                        <td>10</td>
+                        <td>50</td>
+                        <td>Alcance 1</td>
+                        <td>Observación 1</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Actividad 2</td>
+                        <td>15</td>
+                        <td>60</td>
+                        <td>Alcance 2</td>
+                        <td>Observación 2</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <!-- Agregar más filas según sea necesario -->
+                </tbody>
+            </table>
+            <div class="actions">
+                <button>Guardar</button>
+                <button>Modificar</button>
+                <button>Dar de Baja</button>
+                <button>Buscar</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Universidad Nacional de Ingenieria - DACTIC | Derechos Reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de planificacion docente</title>
+    <link rel="stylesheet" href="/styles/reporte.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/src/Logo Uni.png" alt="Logo">
+        </div>
+        <h1>Gestion de resultados</h1>
+        <div class="login-form">
+            <input type="text" placeholder="Usuario">
+            <input type="text" placeholder="Rol">
+            <button>Salir</button>
+        </div>
+    </header>
+    
+    <main>
+        <section class="report">
+            <h2>Reporte por Tipos de Actividad</h2>
+            <button onclick="verReporte('actividades')">Ver Reporte Detallado</button>
+            <img src="actividades.png" alt="Icono de Actividades">
+        </section>
+        
+        <section class="report">
+            <h2>Reporte por Docentes</h2>
+            <button onclick="verReporte('docentes')">Ver Reporte Detallado</button>
+            <img src="docentes.png" alt="Icono de Docentes">
+        </section>
+        
+        <section class="report">
+            <h2>Reporte por Cumplimiento</h2>
+            <button onclick="verReporte('cumplimiento')">Ver Reporte Detallado</button>
+            <img src="cumplimiento.png" alt="Icono de Cumplimiento">
+        </section>
+    </main>
+    
+    <footer>
+        <p>Institución Nombre | Derechos Reservados</p>
+    </footer>
+
+    <script>
+        function verReporte(tipo) {
+            // Aquí puedes colocar la lógica para mostrar el reporte detallado según el tipo seleccionado
+            console.log("Mostrar reporte detallado de " + tipo);
+        }
+    </script>
+</body>
+</html>

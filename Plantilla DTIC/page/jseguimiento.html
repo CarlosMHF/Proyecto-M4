@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de planificacion Docente</title>
+    <link rel="stylesheet" href="/styles/jseguimiento.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/src/Logo Uni.png" alt="Logo">
+        </div>
+       
+        <h1>Seguimiento POI Docente</h1>
+        <div class="login-form">
+            <input type="text" placeholder="Usuario">
+            <input type="text" placeholder="Rol">
+            <button>Salir</button>
+        </div>
+    </header>
+    
+    <main>
+        <section class="tracking">
+            <h2>Gestion del Seguimiento</h2>
+            <form>
+                <label for="año">Año:</label>
+                <input type="text" id="año" name="año" placeholder="Ingrese el año">
+
+                <label for="semestre">Semestre Académico:</label>
+                <input type="text" id="semestre" name="semestre" placeholder="Ingrese el semestre académico">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+
+                <label for="especialidad">Especialidad:</label>
+                <input type="text" id="especialidad" name="especialidad" placeholder="Ingrese su especialidad">
+
+                <label for="visto-bueno">Visto Bueno:</label>
+                <input type="text" id="visto-bueno" name="visto-bueno" placeholder="Ingrese el visto bueno">
+
+                <button type="submit">Iniciar Proceso de Seguimiento</button>
+            </form>
+        </section>
+        
+        <section class="catalog">
+            <h2>Catálogo de Docentes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Especialidad</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nombre Docente 1</td>
+                        <td>Especialidad 1</td>
+                        <td><button>Dar Visto Bueno</button></td>
+                    </tr>
+                    <tr>
+                        <td>Nombre Docente 2</td>
+                        <td>Especialidad 2</td>
+                        <td><button>Dar Visto Bueno</button></td>
+                    </tr>
+                    <!-- Agrega más filas según sea necesario -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Universidad Nacional de Ingenieria - DACTIC | Derechos Reservados</p>
+    </footer>
+</body>
+</html>
+
