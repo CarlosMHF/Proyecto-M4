@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #11095b;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -14,7 +14,10 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Ajusta según el tamaño de tu logo */
+    height: 50px; 
+    background-color: #fbfbfb;
+    background: #fbfbfb;
+    border: #fbfbfb;
 }
 
 .login-form {
@@ -46,6 +49,16 @@ h1 {
     margin: 0;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+
+
+
 section {
     margin-bottom: 20px;
 }
@@ -61,19 +74,26 @@ form label {
 }
 
 form input {
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 4px;
+    margin-bottom: 6px;
     border-radius: 4px;
     border: 1px solid #ccc;
 }
 
-form button {
-    padding: 8px 20px;
-    background-color: #007bff;
+
+
+.boton-estilo {
+    background-color: #888;
     color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 4px 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 2px 2px 5px #888888;
+    font-size: 14px; 
+    font-weight: bold;
 }
 
 table {
@@ -111,4 +131,11 @@ tfoot p {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+footer {
+    background-color: #11095b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }

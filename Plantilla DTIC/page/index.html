@@ -21,7 +21,7 @@
         <ul class="nav nav-pills">
             <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Comunicados</a></li>
             <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
                     data-target="#sesion">Iniciar</a></li>
         </ul>
@@ -44,22 +44,34 @@
             </section>
         </div>
     </header>-->
+    <br>
     <section class="secciones">
         <div class="banner">
-            <img src="/src/banner_Tic.jpg">
+            <img src="/src/home2.jpg">
         </div>
         <div class="titulo">
-            <h2>Bienvenido al Area de Conocimiento de Tecnologia de la Información y Comunicación</h2>
+            <h2>Bienvenido al Área de Conocimiento de Tecnología de la información y Comunicación </h2>
         </div>
+        
+        <figure class="text-end">
+            <blockquote class="blockquote">
+              <p>Si la patria es pequeña, ¡uno grande la sueña!</p>
+            </blockquote>
+            
+            <figcaption class="blockquote-footer">
+              Ruben Dario <cite title="Source Title"> Poeta Nicaraguense</cite>
+            </figcaption>
+          </figure>
+
     </section>
     <section class="division">
-        <h1>Comunicados</h1>
+        <h1 class="General">Comunicados</h1>
         <div class="divcomu">
             <img src="/src/Comunicado.png">
             <button> +ver mas</button>
         </div>
     </section>
-    <section class="division">
+    <!--<section class="division">
         <h1>Noticias</h1>
         <div class="">
 
@@ -69,8 +81,10 @@
             </div>
             <button> +ver mas</button>
         </div>
-    </section>
+    </section>-->
+   
     <section class="division">
+        <h1 class="General">Nosotros</h1>
         <div class="nosotros">
             <div class="about">
                 <img src="/src/Mision.jpg" alt="">
@@ -92,11 +106,13 @@
             </div>
         </div>
     </section>
+   
     <footer>
         <section class="footer">
             <div class="filas">
                 <div class="columnas">
                     <h3>Contactanos</h3>
+                    <br>
                     <p> Sede Central Avenida Universitaria</p>
                     <p>Apartado Pistal: 5595</p>
                     <p>Managua, Nicaragua</p>
@@ -107,22 +123,50 @@
                 </div>
                 <div class="columnas">
                     <h3>Mantente Conectado</h3>
+                    <br>
                     <form action="https://www.facebook.com/UNIdeNicaraguaOficial">
-                        <button>Facebook</button>
+                        <button class="boton-estilo">Facebook</button>
                     </form>
+                    <br>
                     <form action="https://www.instagram.com/">
-                        <button>Instagram</button>
+                        <button class="boton-estilo">Instagram</button>
                     </form>
+                    <br>
                     <form action="https://www.youtube.com/">
-                        <button>YouTube</button>
+                        <button class="boton-estilo">YouTube</button>
                     </form>
                 </div>
                 <div class="columnas">
                     <h3>Consultas</h3>
-                    <input type="text" name="" id="">
-                    <input type="email" name="" id="">
-                    <input type="text" name="" id="">
-                    <button>ENVIAR</button>
+                    <br>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                    <br>
+                    <input type="text" class="form-control" id="inputCorreo" placeholder="correo">
+                    <br>
+                    <input type="text" class="form-control" id="inputConsulta" placeholder="Consulta">
+                    <br>
+                    
+                    <button class="boton-estilo"> ENVIAR</button>
+                   
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                        var setting = {"query":"UNI, Av. Universitaria Casimiro Sotelo, Managua 11127, Nicaragua","width":350,"height":250,"satellite":false,"zoom":12,"placeId":"ChIJH0e9ZeRVcY8Rwo63gTb9k14","cid":"0x5e93fd3681b78ec2","coords":[12.131893,-86.2697797],"lang":"es","queryString":"UNI, Av. Universitaria Casimiro Sotelo, Managua 11127, Nicaragua","centerCoord":[12.131893,-86.2697797],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1065726"};
+                        var d = document;
+                        var s = d.createElement('script');
+                        s.src = 'https://1map.com/js/script-for-user.js?embed_id=1065726';
+                        s.async = true;
+                        s.onload = function (e) {
+                          window.OneMap.initMap(setting)
+                        };
+                        var to = d.getElementsByTagName('script')[0];
+                        to.parentNode.insertBefore(s, to);
+                      })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+
                 </div>
 
             </div>
@@ -147,7 +191,11 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                        <img src="/src/logo area .png" class="bi me-2" width="40" height="40">
+                        <span class="fs-4">DACTIC</span>
+                    </a>
+                    <h5 class="modal-title" id="exampleModalLabel">Bienvenido - Ingrese sus Datos</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -159,10 +207,10 @@
                             <input type="text" class="form-control" id="inputEmail" placeholder="correo">
                         </div>
                         <div class="form-group mx-sm-3 mb-2">
-                            <label for="inputPassword2" class="sr-only">Password</label>
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                            <label for="inputPassword2" class="sr-only">Contraseña</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
                         </div>
-                        <button type="submit" class="btn btn-primary mb-2" id="loginSubmit">Confirm identity</button>
+                        <button type="submit" class="btn btn-primary mb-2" id="loginSubmit">Confirmar</button>
                     </form>
                 </div>
             </div>

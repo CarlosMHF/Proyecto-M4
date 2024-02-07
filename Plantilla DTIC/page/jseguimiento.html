@@ -16,31 +16,39 @@
         <div class="login-form">
             <input type="text" placeholder="Usuario">
             <input type="text" placeholder="Rol">
+            <a href="../Vista Jefe/index.html">
             <button>Salir</button>
+           </a>
         </div>
     </header>
     
     <main>
         <section class="tracking">
             <h2>Gestion del Seguimiento</h2>
-            <form>
+            <div>
+            <form class="form">
+                <br>
+               
                 <label for="año">Año:</label>
+                <br>
                 <input type="text" id="año" name="año" placeholder="Ingrese el año">
-
-                <label for="semestre">Semestre Académico:</label>
+                <br>
+                <label for="semestre">Semestre:</label>
+                <br>
                 <input type="text" id="semestre" name="semestre" placeholder="Ingrese el semestre académico">
-
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
-
+                <br>
+                <label for="nombre">Área:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese el Nombre">
+                <br>
                 <label for="especialidad">Especialidad:</label>
+                <br>
                 <input type="text" id="especialidad" name="especialidad" placeholder="Ingrese su especialidad">
-
-                <label for="visto-bueno">Visto Bueno:</label>
-                <input type="text" id="visto-bueno" name="visto-bueno" placeholder="Ingrese el visto bueno">
-
-                <button type="submit">Iniciar Proceso de Seguimiento</button>
+                <br>
+                <button class="boton-estilo">Iniciar Proceso de Seguimiento</button>
+                
             </form>
+        </div>
         </section>
         
         <section class="catalog">
@@ -55,22 +63,37 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Nombre Docente 1</td>
-                        <td>Especialidad 1</td>
+                        <td>Carlos Manuel Herrera Fuentes</td>
+                        <td>Gestion Organizacional</td>
                         <td><button>Dar Visto Bueno</button></td>
                     </tr>
                     <tr>
-                        <td>Nombre Docente 2</td>
-                        <td>Especialidad 2</td>
+                        <td>Ariel Chavez Toruño</td>
+                        <td>Desarrollo Web</td>
                         <td><button>Dar Visto Bueno</button></td>
                     </tr>
-                    <!-- Agrega más filas según sea necesario -->
+                    
+                    <td>Walger Jose Herrera Treminio</td>
+                    <td>Analisi y Gesytion de Datos</td>
+                    <td><button>Dar Visto Bueno</button></td>
+                </tr>
+                <td>Jorje jj Saul Martinez</td>
+                <td>Infraestructura</td>
+                <td><button>Dar Visto Bueno</button></td>
+            </tr>
+            <td>Rose Elena Castellon</td>
+            <td>Gestion de la Extension</td>
+            <td><button>Dar Visto Bueno</button></td>
+        </tr>
                 </tbody>
             </table>
         </section>
     </main>
-    
-    <footer>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer">
         <p>Universidad Nacional de Ingenieria - DACTIC | Derechos Reservados</p>
     </footer>
 </body>

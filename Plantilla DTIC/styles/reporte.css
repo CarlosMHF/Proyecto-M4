@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1e0956;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -14,7 +14,8 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Ajusta según el tamaño de tu logo */
+    height: 50px; 
+    background-color: #fff;
 }
 
 .login-form {
@@ -64,7 +65,7 @@ h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #1e0956;
     color: #fff;
     text-align: center;
     padding: 10px 0;

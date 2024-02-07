@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0a0442;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -14,7 +14,8 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Ajusta según el tamaño de tu logo */
+    height: 50px; 
+    background-color: #fbfbfb;
 }
 
 h1 {
@@ -56,23 +57,23 @@ h2 {
 
 form label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     color: #007bff;
 }
 
 form input {
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 5px;
+    margin-bottom: 7px;
     border-radius: 4px;
     border: 1px solid #ccc;
 }
 
 form button {
-    padding: 8px 20px;
+    padding: 7px 14px;
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
@@ -91,7 +92,7 @@ thead {
 }
 
 th {
-    text-align: left;
+    text-align: center;
 }
 
 .actions {
@@ -108,8 +109,14 @@ th {
 }
 
 footer {
-    background-color: #333;
+    background-color: #0a0442;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+#activity-form{
+    display: flex; 
+    flex-wrap: wrap; 
+
 }

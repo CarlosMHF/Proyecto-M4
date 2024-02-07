@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1e0c60;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -14,7 +14,9 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Ajusta según el tamaño de tu logo */
+    height: 50px; 
+    border: solid #fbfbfb;
+    background: #fbfbfb;
 }
 
 .login-form {
@@ -50,6 +52,7 @@ table {
 table, th, td {
     border: 1px solid #ddd;
     padding: 8px;
+
 }
 
 thead {
@@ -57,8 +60,9 @@ thead {
 }
 
 footer {
-    background-color: #333;
+    background-color: #14054a;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+

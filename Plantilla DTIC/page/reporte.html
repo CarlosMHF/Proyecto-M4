@@ -15,7 +15,9 @@
         <div class="login-form">
             <input type="text" placeholder="Usuario">
             <input type="text" placeholder="Rol">
+            <a href="../Vista Jefe/index.html">
             <button>Salir</button>
+                    </a>
         </div>
     </header>
     
@@ -23,29 +25,32 @@
         <section class="report">
             <h2>Reporte por Tipos de Actividad</h2>
             <button onclick="verReporte('actividades')">Ver Reporte Detallado</button>
-            <img src="actividades.png" alt="Icono de Actividades">
+            <img src="/src/reporte.png" style="height: 60px; width: 60px;" alt="Icono de Actividades">
         </section>
         
         <section class="report">
             <h2>Reporte por Docentes</h2>
             <button onclick="verReporte('docentes')">Ver Reporte Detallado</button>
-            <img src="docentes.png" alt="Icono de Docentes">
+            <img src="/src/reporte2.png" style="height: 60px; width: 60px;" alt="Icono de Docentes">
         </section>
         
         <section class="report">
             <h2>Reporte por Cumplimiento</h2>
             <button onclick="verReporte('cumplimiento')">Ver Reporte Detallado</button>
-            <img src="cumplimiento.png" alt="Icono de Cumplimiento">
+            <img src="/src/reporte3.jpeg" style="height: 60px; width: 60px;" alt="Icono de Cumplimiento">
         </section>
     </main>
+    <br>
+    <br>
+    <br>
     
     <footer>
-        <p>Institución Nombre | Derechos Reservados</p>
+        <p>Iniversidad Nacional de Ingenieria DAC-TIC UNI | Derechos Reservados</p>
     </footer>
 
     <script>
         function verReporte(tipo) {
-            // Aquí puedes colocar la lógica para mostrar el reporte detallado según el tipo seleccionado
+            
             console.log("Mostrar reporte detallado de " + tipo);
         }
     </script>

@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #11095b;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -14,7 +14,9 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Ajusta según el tamaño de tu logo */
+    height: 50px;
+    background-color: #fbfbfb;
+    background: #fbfbfb;
 }
 
 .login-form {
@@ -111,4 +113,36 @@ tfoot p {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.boton-estilo {
+    background-color: #888;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.footer{
+background-color: #11095b;
+padding: 6px 18px;
+text-align: center;
+color: #fbfbfb;
+
+
+}
+
+#activity-form{
+    display: flex; 
+    flex-direction:column ; 
+    max-width: 600px; 
+    margin: 0 auto; 
+
 }
