@@ -3434,10 +3434,10 @@ class Tooltip extends BaseComponent {
     return this.constructor.getOrCreateInstance(event.delegateTarget, this._getDelegateConfig());
   }
   _isAnimated() {
-    return this._config.animation || this.tip && this.tip.classList.contains(CLASS_NAME_FADE$2);
+    return this._config.animation || this.tip?.classList.contains(CLASS_NAME_FADE$2);
   }
   _isShown() {
-    return this.tip && this.tip.classList.contains(CLASS_NAME_SHOW$2);
+    return this.tip?.classList.contains(CLASS_NAME_SHOW$2);
   }
   _createPopper(tip) {
     const placement = execute(this._config.placement, [this, tip, this._element]);
@@ -4071,7 +4071,7 @@ class Tab extends BaseComponent {
     const showEvent = EventHandler.trigger(innerElem, EVENT_SHOW$1, {
       relatedTarget: active
     });
-    if (showEvent.defaultPrevented || hideEvent && hideEvent.defaultPrevented) {
+    if (showEvent.defaultPrevented || hideEvent?.defaultPrevented) {
       return;
     }
     this._deactivate(active, innerElem);
